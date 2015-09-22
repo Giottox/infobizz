@@ -1,0 +1,124 @@
+body {
+  cursor: default;
+}
+
+.row {
+  margin: 0;
+}
+
+/* header */
+
+.face {
+  background: url(../img/head-bg1.jpg) no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+
+}
+
+.main-hi {
+  margin-top: 150px;
+}
+
+.face h1 {
+  font-size: 3em;
+  font-weight: 800;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  .face h1 {
+    font-size: 2.2em;
+  }
+}
+
+.face h3 {
+  font-weight: 500;
+  font-size: 1.9em;
+  margin: 1.1em 0 0 0;
+  text-transform: uppercase;
+}
+
+.face h5 {
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-top: 1em;
+}
+
+.buy-btn {
+  color: #fff;
+  margin-top: 25px;
+  padding: 15px 80px;
+  display: inline-block;
+  font-size: 1.4em;
+  text-decoration: none;
+  background: #FF5B44;
+  text-transform: uppercase;
+}
+
+/* header */
+
+/* section #2 */
+
+.kniga {
+  background: #eceff1;
+  padding: 50px 0 20px 0;
+}
+
+.book h2 {
+  color: #FF5B44;
+  margin-top: 0;
+}
+
+.book h2:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 2em;
+  background: #FF5B44;
+  margin-top: 15px;
+  margin-bottom: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.book img {
+  margin-top: 25px;
+  height: 480px;
+  border-right: 2px solid #DCDCDC;
+}
+
+@media screen and (max-width: 1200px) {
+  .book img {
+    height: 320px;
+  }
+}
+
+.margin-text {
+  margin-top: 11em;
+  text-align: left;
+}
+
+.margin-text h5 {
+  color: #FF5B44;
+  margin-left: 0.7em;  
+}
+
+.margin-text p {
+  color: #757575;
+  margin-left: 1em;  
+}
+
+/* /section #2 */
+
+/* 
+
+position: relative;
+left: -30%;
+border-right: 3px dashed #FF5B44;
+
+*/
