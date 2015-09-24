@@ -1,0 +1,50 @@
+body {
+  cursor: default;
+  background: #f5f5f5;
+}
+
+.row {
+  margin: 0;
+}
+
+/* section #5 */
+
+.price {
+  background: #FF5B44;
+  padding: 100px 0;
+  height: 100vh;
+}
+
+.price h3 {
+  color: #FF5B44;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.block {
+  background: #f5f5f5;
+  padding: 80px 0;
+  margin-top: 50px;
+  border-radius: 0.5%;
+}
+
+.buy-button {
+  color: #fff;
+  margin-top: 15px;
+  padding: 12px 70px;
+  font-size: 1.4em;
+  text-decoration: none;
+  background: #FF5B44;
+  text-transform: uppercase;
+}
+
+.block h5 {
+  color: #FF5B44;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.block-btn {
+  margin-top: 25px;
+}

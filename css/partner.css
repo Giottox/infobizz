@@ -1,0 +1,50 @@
+body {
+  cursor: default;
+  background: #f5f5f5;
+}
+
+h2 {
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.partner {
+  height: 100vh;
+  background: #00969F;
+}
+
+.partner h2 {
+  padding-top: 20px;
+  color: #f5f5f5;
+}
+
+.row img {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.text-block p {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.text-p {
+  margin-top: 9em;
+}
+
+.text-p-1 {
+  margin-bottom: 30px;
+}
+
+.reg-button {
+  color: #fff;
+  padding: 12px 70px;
+  font-size: 1.4em;
+  text-decoration: none;
+  background: #FF5B44;
+  text-transform: uppercase;
+}
+

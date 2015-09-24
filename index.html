@@ -22,13 +22,13 @@
         <h1>Как начать зарабатывать удаленно?</h1>
         <h3>Мы знаем что вам поможет!</h3>
         <h5>Практический курс по переводу своей деятельности в онлайн формат</h5>
-        <a href="#" id="#" class="buy-btn hvr-grow hvr-ripple-out">Узнать как</a>
+        <a href="#knigas" class="buy-btn hvr-grow hvr-ripple-out scrollspy">Узнать как</a>
       </div>
     </div>
   </div>
 </header>
 
-<section class="kniga">
+<section class="kniga" name="knigas">
   <div class="container">
       <div class="col s12 center book">
           <h2>О Курсе</h2>
@@ -138,7 +138,7 @@
         <div class="cost-block center">
           <h5 class="cost">2000</h5><i class="flaticon-ruble"></i><br>
           <h4 class="cost-n">1490</h4><span class="flaticon-ruble"></span><br>
-          <a href="#" id="#" class="buy-button hvr-grow hvr-ripple-out">купить по низкой цене</a>
+          <a href="success.html" id="#" class="buy-button hvr-grow hvr-ripple-out">купить по низкой цене</a>
         </div>
         <div class="hide-on-small-only hide-on-med-only hide-on-med-and-down">
         <script src="http://megatimer.ru/s/314dea8ed9db02883eff5ce46216db3d.js"></script>
@@ -149,9 +149,9 @@
           <div class="block-btn center">
             <div class="container">
               <div class="col s12">
-              <a href="#" id="#" class="buy-button-1 hvr-grow hvr-ripple-out">Купить книгу</a>
+              <a href="fail.html" id="#" class="buy-button-1 hvr-grow hvr-ripple-out">Купить книгу</a>
               <h5>А также присоединись к партнёрской программе Ильи Варенцова и получай 30% от каждой продажи!</h5>
-              <a href="#" id="#" class="buy-button hvr-grow hvr-ripple-out">Присоединиться</a>
+              <a href="partner.html" id="#" class="buy-button hvr-grow hvr-ripple-out">Присоединиться</a>
               </div>
             </div>
           </div>
@@ -177,6 +177,14 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/materialize.js"></script>
 
+  <script>
+    ;(function($){
+       $(document).on('click', 'a[href^=#]', function () {
+            $('html, body').animate({ scrollTop:  $('section[name="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
+            return false;
+        });
+    })(jQuery);
+  </script>
 
 </body>
 </html>
